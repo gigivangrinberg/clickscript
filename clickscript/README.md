@@ -13,6 +13,20 @@ ClickScript is a Python CLI tool that simulates mouse clicks on macOS. It automa
 - Progress feedback and ESC to abort at any time.
 - macOS only.
 
+## Typical Use Case: Walt Food Ordering
+
+**ClickScript was designed to help automate rapid clicking in the Walt food ordering app (https://walt.co.il/) for Israel.**  
+This can be useful for quickly securing limited-availability food orders or deals that require fast, repeated clicks on a specific button in the Walt web or desktop app.
+
+**How to use with Walt:**
+1. Open the Walt app or website and navigate to the order or deal you want.
+2. Move your mouse cursor over the button you want to click (e.g., "Order", "Get Deal", etc.).
+3. Run ClickScript with your desired options (see below).
+4. Use `--wait-for-space` to prepare and start clicking at the right moment.
+5. The script will rapidly click at the mouse position, helping you secure your order faster.
+
+> **Note:** Use this tool responsibly and only where permitted by Walt's terms of service.
+
 ## Installation
 
 Make sure you have Python 3 and pip installed.
@@ -60,6 +74,7 @@ python clickOn.py --print-pos
 - Press ESC at any time to abort clicking.
 - The actual number of clicks may be less than requested if the duration is too short.
 - This script only works on macOS.
+- For Walt, it's recommended to use `--wait-for-space` so you can start clicking at the exact right moment.
 
 ## License
 
