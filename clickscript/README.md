@@ -1,3 +1,4 @@
+
 # ClickScript
 
 ClickScript is a Python CLI tool that simulates mouse clicks on macOS. It automates clicking tasks with flexible options for number of clicks, duration, delay, and more.
